@@ -1,4 +1,4 @@
-FROM ruby:2.6.5-alpine
+FROM ruby:2.6.6-alpine
 RUN apk add --no-cache --update build-base postgresql-dev tzdata
 RUN mkdir /aar-rails
 WORKDIR /aar-rails
